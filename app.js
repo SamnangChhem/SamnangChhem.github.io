@@ -27,7 +27,7 @@ form.addEventListener("submit", (e) => {
 
     const name = document.getElementById('name').value;
     const email = document.getElementById('email').value;
-    const message = document.getElementById('message').value;
+    const password = document.getElementById('password').value;
 
 
     //console.log(name, email, message);
@@ -39,7 +39,7 @@ form.addEventListener("submit", (e) => {
     ref.push({
         name: name,
         email: email,
-        message: message
+        password: password
     })
 
     alert.style.display = "block"
