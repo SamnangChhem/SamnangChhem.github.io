@@ -147,7 +147,7 @@ h6 {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 10px 0 10px 30px;
+  padding: 10px 15px 15px 20px;
   font-size: 14px;
   color: #191D20;
   white-space: nowrap;
@@ -166,6 +166,9 @@ h6 {
 .navbar .active:focus,
 .navbar li:hover>a {
   color: #80FA8C;
+  border-bottom: 5px solid #80fa8c86;
+
+
 }
 
 .navbar .dropdown ul {
@@ -292,8 +295,8 @@ h6 {
 .navbar-mobile a,
 .navbar-mobile a:focus {
   padding: 10px 20px;
-  font-size: 15px;
-  color: #2c4964;
+  font-size: 30px;
+  color: #191D20;
 }
 
 .navbar-mobile a:hover,
@@ -311,12 +314,12 @@ h6 {
   position: static;
   display: none;
   margin: 10px 20px;
-  padding: 10px 0;
+  padding: 10px;
   z-index: 99;
-  opacity: 1;
+  opacity: 10px;
   visibility: visible;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  box-shadow: 0px 0px 30px rgba(127, 161, 137, 0.25);
 }
 
 .navbar-mobile .dropdown ul li {
@@ -328,7 +331,7 @@ h6 {
 }
 
 .navbar-mobile .dropdown ul a i {
-  font-size: 12px;
+  font-size: 52px;
 }
 
 .navbar-mobile .dropdown ul a:hover,
@@ -346,10 +349,13 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 75vh;
+  height:
+    /* 75vh */
+    92vh;
   background: url("../img/hero-bg.gif") top center;
   background-size: cover;
-  padding: 0 15px;
+  /* padding:
+    15px; */
 }
 
 #hero h1 {
@@ -405,7 +411,7 @@ h6 {
 # Sections General
 --------------------------------------------------------------*/
 section {
-  padding: 30px 20px;
+  padding: 30px 30px;
 }
 
 .section-bg {
@@ -510,7 +516,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  padding: 0px 0;
+  padding: 30px;
 }
 
 .about .content h3 {
@@ -524,7 +530,7 @@ section {
 }
 
 .about .content .count-box {
-  padding: 20px 0;
+  padding: 30px;
   width: 100%;
 }
 
@@ -547,8 +553,8 @@ section {
 }
 
 .about .content .count-box p {
-  padding: 15px 0 0 0;
-  margin: 0 0 0 50px;
+  padding: 30px;
+
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   color: #437099;
@@ -792,7 +798,7 @@ section {
 }
 
 .portfolio #portfolio-flters {
-  padding: 0;
+  padding: 10px;
   margin: 0 auto 35px auto;
   list-style: none;
   text-align: center;
@@ -900,7 +906,7 @@ section {
 
 .portfolio .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
-  top: calc(50% - 48px);
+  top: calc(50% - 50px);
 }
 
 .portfolio .portfolio-wrap:hover .portfolio-links {
@@ -932,7 +938,7 @@ section {
   border: 1px solid #80FA8C;
 }
 
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.portfolio-detailgs .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #80FA8C;
 }
 
@@ -1059,7 +1065,7 @@ section {
 
 @media (max-width: 767px) {
   .testimonials {
-    margin: 30px 10px;
+    margin: 0px 0px;
   }
 }
 
