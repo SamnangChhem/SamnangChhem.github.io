@@ -9,6 +9,11 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #5a656e;
@@ -165,10 +170,9 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-  color: #80FA8C;
-  border-bottom: 5px solid #80fa8c86;
-
-
+  color: #4BF35C;
+  border-bottom: 3.7px solid #ffffff;
+  font-weight: 577
 }
 
 .navbar .dropdown ul {
@@ -352,10 +356,11 @@ h6 {
   height:
     /* 75vh */
     92vh;
-  background: url("../img/hero-bg.gif") top center;
+  /* background: url("../img/hero-bg.gif") top center; */
+  background: url("../img/background.gif") top center;
   background-size: cover;
-  /* padding:
-    15px; */
+  padding:
+    150px 150px 150px 150px;
 }
 
 #hero h1 {
@@ -404,6 +409,14 @@ h6 {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+  }
+
+  #hero {
+
+    background: url("../img/mobile-bg.gif") top center;
+    padding:
+      150px 70px 150px 70px;
+
   }
 }
 
@@ -816,14 +829,14 @@ section {
   font-weight: 600;
   line-height: 1;
   text-transform: uppercase;
-  color: rgb(255, 255, 255);
+  color: #24242470;
   margin-bottom: 5px;
   transition: all 0.3s ease-in-out;
 }
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #000000;
+  color: #191D20;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1054,9 +1067,9 @@ section {
 .testimonials .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
-  background-color: #fff;
+  background-color: #D6DBD8;
   opacity: 1;
-  border: 1px solid #80FA8C;
+  /* border: 1px solid #80FA8C; */
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
@@ -1116,7 +1129,7 @@ section {
 }
 
 .contact .social-links a:hover {
-  background: #191D20;
+  background: #191d2000;
   color: #80FA8C;
 }
 
