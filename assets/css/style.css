@@ -6,6 +6,27 @@
 * License: https://bootstrapmade.com/license/
 */
 
+/* Masonry*/
+
+/* .masonry {
+  margin: 0;
+  display: grid;
+  grid-template-rows: 1fr auto;
+  margin-bottom: 10px;
+  break-inside: avoid;
+}
+
+.masonry-card {
+  max-width: 100%;
+  display: block;
+}
+
+.masonry > .masonry-card {
+  grid-row: 1/-1;
+  grid-column: 1;
+} */
+
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -19,7 +40,7 @@ html {
 }
 
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif 'Kantumruy Pro', ;
   color: #5a656e;
 }
 
@@ -50,6 +71,11 @@ h5,
 h6 {
   font-family: "Poppins", sans-serif;
 }
+
+
+
+
+
 
 /*--------------------------------------------------------------
 # Back to top button
@@ -369,12 +395,21 @@ h6 {
 
 #hero h1 {
   margin: 0 0 10px 0;
-  font-size: 48px;
-  font-weight: 700;
+  font-size: 50px;
   line-height: 56px;
   color: #1A1A1A;
-  ;
+  font-family: 'Kantumruy Pro', 'Poppins', sans-serif;
 }
+
+#hero h3 {
+  margin: 0 0 10px 0;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #000000;
+  font-family: "Open Sans", sans-serif;
+}
+
 
 #hero h2 {
   color: #eee;
@@ -412,7 +447,17 @@ h6 {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+
+  }
+
+  #hero h3 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
   }
 
   #hero {
@@ -692,6 +737,8 @@ section {
 .resume .resume-item ul {
   padding-left: 20px;
 }
+
+
 
 .resume .resume-item ul li {
   padding-bottom: 10px;
@@ -994,6 +1041,12 @@ section {
 
 .portfolio-details .portfolio-description p {
   padding: 0;
+}
+
+.img-fluid {
+  max-width: 100%;
+  border-radius: 5px;
+  height: auto;
 }
 
 /*--------------------------------------------------------------
